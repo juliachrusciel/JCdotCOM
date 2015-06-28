@@ -6,8 +6,8 @@
   float: left;
   z-index: 2;
   top: 0;
-  font-style: ;
-
+  font-family: 'Megrim', 'Arial', cursive;
+  font-size: 25px;
 }
 .nav-header-li{
   display: inline-block;
@@ -16,8 +16,9 @@
   float: right;
   z-index: 2;
 	top: 0;
-  font-style: ;
-
+  font-family: 'Roboto Slab', 'Arial', serif;
+  color: ;
+  text-decoration: none;
 }
 /*Nav Bar Styling END*/
 
@@ -26,12 +27,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 h1 {
   color: black;
   font-size: 38pt;
   text-align: center;
   padding-top: 150px;
+  font-family: 'Megrim', 'Arial', cursive;
+}
+p{
+  margin: 20px;
+  padding: 10px;
+  diplay: inline-block;
+  font-family: 'Roboto Slab', 'Arial',serif;
 }
 section {
   height: 100vh;
