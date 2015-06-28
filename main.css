@@ -1,12 +1,23 @@
 /*Nav Bar Styling START*/
-.nav-header {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.nav-header-li {
+#nav-header-name {
   display: inline-block;
+  margin: 10px;
+  padding: 5px;
   float: left;
+  z-index: 2;
+  top: 0;
+  font-style: ;
+
+}
+.nav-header-li{
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  float: right;
+  z-index: 2;
+	top: 0;
+  font-style: ;
+
 }
 /*Nav Bar Styling END*/
 
@@ -27,7 +38,7 @@ section {
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
-}]
+}
 
 #section-1{
   background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/EXyWBa6.jpg');
